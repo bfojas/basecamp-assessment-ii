@@ -69,7 +69,7 @@ describe("evensOnly should return the correct numbers", function () {
 		expect(evensOnly).toEqual(jasmine.any(Function));
 	});
 	it("should return correct values", function () {
-		expect(evensOnly()).toEqual([4, 34, 88, 222]);
+		expect(evensOnly(myNumbers)).toEqual([4, 34, 88, 222]);
 	});
 });
 
